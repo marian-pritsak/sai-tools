@@ -31,3 +31,12 @@ Makefile.in
 # http://www.gnu.org/software/texinfo
 
 /texinfo.tex
+
+# Build artifacts
+
+.deps/
+Makefile
+config.log
+config.status
+sai_sample_packet-sample-packet.o
+sai-sample-packet
