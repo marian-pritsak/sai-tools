@@ -1,4 +1,4 @@
 #!/bin/bash
 
-autoreconf --force --install -I m4
+autoreconf --force --install
 automake --add-missing --foreign
