@@ -27,7 +27,7 @@ int profile_get_next_value(
     return -1;
 }
 
-service_method_table_t test_services = {
+sai_service_method_table_t test_services = {
         profile_get_value,
             profile_get_next_value
 };
